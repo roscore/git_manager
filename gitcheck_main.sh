@@ -2,82 +2,57 @@
 
 git config --global credential.helper 'cache --timeout=120'
 
-cd ~/catkin_ws/src/ALICE
-cd OTHER/
+cd ~/hn_ws/src
+cd HERoEHS-HENN_NA-OTHER/
 echo "Check OTHER================="
 git status --porcelain
 
-cd ~/catkin_ws/src/ALICE
+cd ~/hn_ws/src/
 cd ROBOTIS_FILE/
 echo "Check ROBOTIS_FILE================"
 git status --porcelain
 
-cd ~/catkin_ws/src/ALICE
-cd HERoEHS-ALICE-MPC/
-echo "Check MPC_FILE================"
-
-echo "Check ControlGUI ================"
-cd HERoEHS-ALICE-ControlGUI/
+echo "Check GUI================"
+cd ../HERoEHS-HENN_NA-GUI/
 git checkout master
 git status --porcelain
 
 echo "Check DisplayGUI================"
-cd ../HERoEHS-ALICE-DisplayGUI/
-git checkout master
-git status --porcelain
-
-echo "Check Footstep================"
-cd ../HERoEHS-ALICE-Footstep/
+cd ../HERoEHS-HENN_NA-Display/
 git checkout master
 git status --porcelain
 
 echo "Check Math================"
-cd ../HERoEHS-ALICE-Math/
+cd ../HERoEHS-HENN_NA-Math/
 git checkout master
 git status --porcelain
 
 echo "Check Motion================"
-cd ../HERoEHS-ALICE-Motion/
+cd ../HERoEHS-HENN_NA-Motion/
 git checkout master
 git status --porcelain
 
 echo "Check Msgs================"
-cd ../HERoEHS-ALICE-Msgs/
+cd ../HERoEHS-HENN_NA-Msgs/
 git checkout master
 git status --porcelain
 
 echo "Check Operation================"
-cd ../HERoEHS-ALICE-Operation/
+cd ../HERoEHS-HENN_NA-Operation/
 git checkout master
 git status --porcelain
 
 echo "Check Sensor================"
-cd ../HERoEHS-ALICE-Sensor/
+cd ../HERoEHS-HENN_NA-Sensor/
 git checkout master
 git status --porcelain
 
 echo "Check Simulation================"
-cd ../HERoEHS-ALICE-Simulation/
-git checkout master
+cd ../HERoEHS-HENN_NA-Simulation/
+git checkout main
 git status --porcelain
 
-echo "Check Walking================"
-cd ../HERoEHS-ALICE-Walking/
-git checkout master
-git status --porcelain
-
-cd ~/catkin_ws/src/ALICE
-cd ROBOTIS-Framework-PositionControl/
+cd ~/hn_ws/src
+cd ROBOTIS-Framework_for_HENN_NA/
 echo "Check ROBOTIS-Framework-PositionControl----------------"
 git status --porcelain
-
-
-cd ~/catkin_ws/src/ALICE
-cd ROBOTIS-Optimization-Scilab/
-echo "Check ROBOTIS-Optimization-Scilab----------------"
-git status --porcelain
-
-
-
-
-

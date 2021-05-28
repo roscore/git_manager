@@ -96,58 +96,42 @@ self_check()
 #cd ~/catkin_ws/src/ROBOTIS_FILE/
 #self_check
 
-cd ~/catkin_ws/src/ALICE
-cd HERoEHS-ALICE-MPC/
+cd ~/hn_ws
 
-cd HERoEHS-ALICE-ControlGUI/
+cd HERoEHS-HENN_NA-GUI/
 git checkout master
 self_check
 
-cd ../HERoEHS-ALICE-DisplayGUI/
+cd ../HERoEHS-HENN_NA-Display/
 git checkout master
 self_check
 
-cd ../HERoEHS-ALICE-Footstep/
+cd ../HERoEHS-HENN_NA-Math/
 git checkout master
 self_check
 
-cd ../HERoEHS-ALICE-Math/
+cd ../HERoEHS-HENN_NA-Motion/
 git checkout master
 self_check
 
-cd ../HERoEHS-ALICE-Motion/
+cd ../HERoEHS-HENN_NA-Msgs/
 git checkout master
 self_check
 
-cd ../HERoEHS-ALICE-Msgs/
+cd ../HERoEHS-HENN_NA-Operation/
 git checkout master
 self_check
 
-cd ../HERoEHS-ALICE-Operation/
+cd ../HERoEHS-HENN_NA-Sensor/
 git checkout master
 self_check
 
-cd ../HERoEHS-ALICE-Sensor/
-git checkout master
+cd ../HERoEHS-HENN_NA-Simulation/
+git checkout main
 self_check
 
-cd ../HERoEHS-ALICE-Simulation/
+cd ~/hn_ws/src
+cd ROBOTIS-Framework_for_HENN_NA/
 git checkout master
 self_check
-
-cd ../HERoEHS-ALICE-Walking/
-git checkout master
-self_check
-
-
-cd ~/catkin_ws/src/ALICE
-cd ROBOTIS-Framework-PositionControl/
-git checkout master
-self_check
-
-cd ~/catkin_ws/src/ALICE
-cd ROBOTIS-Optimization-Scilab/
-git checkout master
-self_check
-
 
